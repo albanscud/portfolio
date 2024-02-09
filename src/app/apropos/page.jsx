@@ -63,26 +63,26 @@ export default function About() {
         
             
             <p>
-              J'ai passé cinq ans dans l'armée en tant que parachutiste, 
-              une expérience qui m'a profondément marqué et qui m'a enseigné 
-              d'importantes leçons sur la collaboration, la discipline et la résilience. 
-              Cependant, au cours de cette période, j'ai découvert une passion grandissante 
-              pour la cybersécurité, et j'ai pris la décision de réorienter ma carrière dans 
+              J&apos;ai passé cinq ans dans l&apos;armée en tant que parachutiste, 
+              une expérience qui m&apos;a profondément marqué et qui m&apos;a enseigné 
+              d&apos;importantes leçons sur la collaboration, la discipline et la résilience. 
+              Cependant, au cours de cette période, j&apos;ai découvert une passion grandissante 
+              pour la cybersécurité, et j&apos;ai pris la décision de réorienter ma carrière dans 
               ce domaine captivant.
             </p>
             <p>
               Ce qui me fascine particulièrement dans le domaine de la 
-              cybersécurité, c'est la constante évolution des défis et des menaces, 
+              cybersécurité, c&apos;est la constante évolution des défis et des menaces, 
               ainsi que la nécessité de rester constamment en alerte pour protéger 
-              les systèmes et les données sensibles. J'apprécie la complexité des 
+              les systèmes et les données sensibles. J&apos;apprécie la complexité des 
               problèmes auxquels je fais face, ainsi que le sentiment gratifiant de 
               contribuer à la sécurité des individus et des organisations. 
             </p>
             <p>
               Tout comme dans mon parcours militaire, je valorise énormément le travail 
-              d'équipe dans la cybersécurité. La collaboration et la communication sont
+              d&apos;équipe dans la cybersécurité. La collaboration et la communication sont
               essentielles pour anticiper les attaques et élaborer des stratégies efficaces
-              de défense. La discipline que j'ai acquise en tant que parachutiste se traduit
+              de défense. La discipline que j&apos;ai acquise en tant que parachutiste se traduit
               parfaitement dans la rigueur requise pour maintenir des environnements
               numériques sécurisés.
               Je suis convaincu que ma capacité à faire preuve de résilience, 
@@ -91,10 +91,11 @@ export default function About() {
             <p>
               Les incidents de sécurité peuvent survenir à tout moment, et savoir réagir rapidement
               et efficacement est primordial pour limiter les dommages potentiels.
-              Je suis enthousiaste à l'idée de me plonger davantage dans le domaine de la cybersécurité,
+              Je suis enthousiaste à l&apos;idée de me plonger davantage dans le domaine de la cybersécurité,
               de continuer à apprendre et à élargir mes compétences, tout en contribuant à la 
               protection des données et à la prévention des cybermenaces.
             </p>
+
 
               </div>
         </div>
