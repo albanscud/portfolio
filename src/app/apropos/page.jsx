@@ -94,7 +94,8 @@ export default function About() {
               Je suis enthousiaste à l'idée de me plonger davantage dans le domaine de la cybersécurité,
               de continuer à apprendre et à élargir mes compétences, tout en contribuant à la 
               protection des données et à la prévention des cybermenaces.
-            </p> 
+            </p>
+
               </div>
         </div>
         <div className="lg:pl-20">
