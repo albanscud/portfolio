@@ -60,14 +60,9 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             
-          {/*   <p>
-            La cybersécurité me passionne énormément. J'adore explorer les défis complexes de la protection en ligne, 
-            comprendre les menaces et trouver des moyens ingénieux de sécuriser les systèmes. 
-            Chaque jour apporte de nouvelles opportunités d'apprentissage et d'adaptation. 
-            Contribuer à la défense des données et à la prévention des cyberattaques me motive à poursuivre mes études dans ce domaine passionnant.
-            </p> */}
+        
             
-            {/* <p>
+            <p>
               J'ai passé cinq ans dans l'armée en tant que parachutiste, 
               une expérience qui m'a profondément marqué et qui m'a enseigné 
               d'importantes leçons sur la collaboration, la discipline et la résilience. 
@@ -99,7 +94,7 @@ export default function About() {
               Je suis enthousiaste à l'idée de me plonger davantage dans le domaine de la cybersécurité,
               de continuer à apprendre et à élargir mes compétences, tout en contribuant à la 
               protection des données et à la prévention des cybermenaces.
-            </p> */}
+            </p> 
               </div>
         </div>
         <div className="lg:pl-20">
