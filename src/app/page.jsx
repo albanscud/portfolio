@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
@@ -205,12 +206,6 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <a href="../photos/cv.pdf" download="cv.pdf">
-        <Button variant="secondary" className="group mt-6 w-full">
-          Téléchargez mon cv
-          <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-        </Button>
-      </a>
     </div>
   )
 }

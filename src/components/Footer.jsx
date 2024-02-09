@@ -23,7 +23,7 @@ export function Footer() {
               <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
                 <NavLink href="/apropos">A propos</NavLink>
                 <NavLink href="/certifs">Certifications</NavLink>
-                
+                <NavLink href="/cv">CV</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
                 &copy; {new Date().getFullYear()} Alban Escudier. Tous droits réservés.
@@ -37,4 +37,4 @@ export function Footer() {
 }
 // a rajouter au footer
  // <NavLink href="/speaking">Speaking</NavLink>
- // <NavLink href="/uses">Uses</NavLink>
+ // 
