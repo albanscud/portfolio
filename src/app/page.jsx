@@ -251,7 +251,7 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             Je suis un ancien militaire, en transition vers le domaine de la cybersécurité. 
-            Actuellement en plein apprentissage, je me forme activement grâce à des cours spécialisés et à l'auto-apprentissage en ligne. Mon objectif est de développer mes compétences pour exceller dans ce domaine en constante évolution.
+            Actuellement en plein apprentissage, je me forme activement grâce à des cours spécialisés et à l&apos;auto-apprentissage en ligne. Mon objectif est de développer mes compétences pour exceller dans ce domaine en constante évolution.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
