@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
-import google from '@/images/googlee.jpg'
+import google from '@/images/google.png'
 import cisco from '@/images/cisco.jpg'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
@@ -211,33 +211,8 @@ function Resume() {
   )
 }
 
-/* function Photos() {
-  let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
-  return (
-    <div className="mt-16 sm:mt-20">
-      <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
-          <div
-            key={image.src}
-            className={clsx(
-              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
-              rotations[imageIndex % rotations.length],
-            )}
-          >
-            <Image
-              src={image}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-          </div>
-        ))}
-      </div>
-    </div>
-  )
-} */
-function Photos() {
+/* function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
   return (
@@ -262,7 +237,7 @@ function Photos() {
       </div>
     </div>
   )
-}
+} */
 
 export default async function Home() {
   let articles = (await getAllArticles()).slice(0, 4)
@@ -275,8 +250,8 @@ export default async function Home() {
             Alban Escudier, passionné par la cybersécurité et son environnement.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          Je suis Alban, un ancien militaire. Je suis en phase de devenir analyste en cybersécurité,
-          je me forme actuellement en suivant des formations et en autodidacte grace a internet.
+            Je suis un ancien militaire, en transition vers le domaine de la cybersécurité. 
+            Actuellement en plein apprentissage, je me forme activement grâce à des cours spécialisés et à l'auto-apprentissage en ligne. Mon objectif est de développer mes compétences pour exceller dans ce domaine en constante évolution.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -294,7 +269,7 @@ export default async function Home() {
           </div>
         </div>
       </Container>
-      <Photos /> 
+      {/* <Photos />  */}
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">

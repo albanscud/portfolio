@@ -126,7 +126,8 @@ function MobileNavigation(props) {
               <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
                 <MobileNavItem href="/apropos">A propos</MobileNavItem>
                 <MobileNavItem href="/certifs">Certifications</MobileNavItem>
-                <MobileNavItem href="/cv">CV</MobileNavItem>
+                <MobileNavItem href="/projets">Projets</MobileNavItem>
+                
               </ul>
             </nav>
           </Popover.Panel>
@@ -136,8 +137,9 @@ function MobileNavigation(props) {
   )
 }
 
-/* <MobileNavItem href="/projects">Projects</MobileNavItem>
+/* 
 <MobileNavItem href="/speaking">Speaking</MobileNavItem>
+<MobileNavItem href="/cv">CV</MobileNavItem>
  */
 
 function NavItem({ href, children }) {
@@ -172,7 +174,7 @@ function DesktopNavigation(props) {
         <NavItem className="" href="/apropos">A propos</NavItem>
         <NavItem href="/certifs">Certifications</NavItem>
         <NavItem href="/projets">Projets</NavItem>
-        <NavItem href="/cv">CV</NavItem>
+        
         
               
       </ul>
@@ -183,6 +185,7 @@ function DesktopNavigation(props) {
 /*
 <NavItem href="/speaking">Speaking</NavItem>
 <NavItem href="/projects">Projects</NavItem>
+<NavItem href="/cv">CV</NavItem>
 */
 function ThemeToggle() {
   let { resolvedTheme, setTheme } = useTheme()
