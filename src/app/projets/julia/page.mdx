@@ -1,0 +1,40 @@
+import { ProjetLayout } from '@/components/ProjetLayout'
+import Image from 'next/image'
+import tarif from './tarificateur_julia.png'
+import signature from './pagesignaturejulia.png'
+
+
+export const projet = {
+  date: '2023-05-30',
+  title: 'Julia',
+  description:
+    "Les differentes tâches que j'ai pu effectuer lors de mon stage dans l'entreprise Julia",
+}
+
+export const metadata = {
+  author: 'Alban Escudier',
+  title: projet.title,
+  description: projet.description,
+}
+
+export default (props) => <ProjetLayout projet={projet} {...props} />
+
+
+<Image src={tarif} alt="photo tarificateur" />
+
+La réalisation de cet outil de tarification a été un projet multi-facettes et j’ai utilisé plusieurs technologies pour le développer. J’ai utilisé Angular pour développer la partie front-end de l’application, ce qui m’a permis de créer une interface utilisateur réactive et intuitive pour les utilisateurs.
+
+Quant à la partie back-end, j’ai utilisé Python pour traiter les données et générer les tarifs. J’ai trouvé que Python était bien adapté pour la manipulation de données et j’ai pu l’utiliser pour analyser les données JSON provenant des différentes sources d’API, les intégrer dans une base de données et les traiter pour générer les tarifs.
+
+En utilisant ces deux technologies ensemble, j’ai pu créer une application efficace et bien intégrée qui répond aux besoins des utilisateurs. L’utilisation de ces technologies a également été une excellente occasion pour moi d’acquérir de nouvelles compétences en développement web et de les ajouter à mon portfolio de compétences techniques.
+
+<Image src={signature} alt="photo page de signature" />
+
+
+J’ai créé une page pour afficher tous les contrats avant de les signer sur YouSign. Cette page est conçue pour permettre aux utilisateurs de voir facilement tous les contrats qu’ils ont à signer, ainsi que les détails importants de chaque contrat tels que garanties ou encore les parties impliquées.
+
+En utilisant cette page, les utilisateurs peuvent facilement vérifier chaque contrat avant de signer électroniquement. J’ai mis l’accent sur la simplicité et la convivialité en concevant cette page pour qu’elle soit facile à utiliser et intuitive pour les utilisateurs.
+
+En développant cette page, j’ai veillé à ce qu’elle soit bien intégrée avec YouSign, de sorte que les utilisateurs puissent facilement accéder aux contrats et les signer sans avoir à passer par des étapes complexes. Cette page a permis d’améliorer l’efficacité et la rapidité du processus de signature électronique.
+
+

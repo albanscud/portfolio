@@ -1,0 +1,32 @@
+import { ProjetLayout } from '@/components/ProjetLayout'
+import Image from 'next/image'
+import blockchain from './blockchain.png'
+
+export const projet = {
+  date: '2023-04-30',
+  title: 'Blockchain',
+  description:
+    "Un site d'information sur la blockchain que j'ai créé lors de ma formation de développeur web.",
+}
+
+export const metadata = {
+  author: 'Alban Escudier',
+  title: projet.title,
+  description: projet.description,
+}
+
+export default (props) => <ProjetLayout projet={projet} {...props} />
+
+<Image src={blockchain} alt="photo couverture site" />
+
+Le projet “Blockchain et Smart Contract” que j’ai développé est un site complet qui fournit des informations sur la technologie de la blockchain et des smart contracts, ainsi que des fonctionnalités pour acheter des cryptomonnaies en toute sécurité. En utilisant l’API Coinlayer, le site fournit des prix en temps réel de différentes cryptomonnaies, ce qui permet aux utilisateurs de suivre les fluctuations du marché et de prendre des décisions éclairées.
+
+Pour accéder à toutes les fonctionnalités du site, les utilisateurs doivent s’enregistrer et se connecter. Une fois connecté, l’utilisateur peut acheter des cryptomonnaies directement à partir du site grâce à un processus de paiement sécurisé Stripe (achat fictif).
+
+En plus de l’achat de cryptomonnaies (fictif), le site fournit également des informations détaillées sur différentes cryptomonnaies telles que leurs créateurs, leurs utilités, et leurs dates de création. En outre, le site dispose d’une page dédiée aux analyses et prévisions du marché grâce aux widgets Tradingview.
+
+En somme, ce projet est une ressource complète pour ceux qui souhaitent en apprendre davantage sur la technologie de la blockchain et des smart contracts. En développant ce projet, j’ai pu acquérir des compétences précieuses en matière de développement web et de sécurité des paiements en ligne.
+
+
+
+
