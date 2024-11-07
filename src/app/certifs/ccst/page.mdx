@@ -1,0 +1,23 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import ccst from './certifcisco.png'
+
+export const article = {
+  author: 'Alban Escudier',
+  date: '2024-02-12',
+  title: 'Technicien de support certifié Cisco (CCST) Cybersécurité',
+  description:
+    "Après avoir suivi les formations en cybersécurité proposées par Google et Cisco, j'ai obtenu avec succès la certification CCST de Cisco.",
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+
+<Image src={ccst} alt=" image certification" />
+
+**Certificat Cisco (CCST) Cybersécurité**
